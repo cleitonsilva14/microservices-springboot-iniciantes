@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProcessamentoApplication<processamento>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "io.estudospringrabbitmq.processamento.ProcessamentoApplication",
+            "projectName": "processamento",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
