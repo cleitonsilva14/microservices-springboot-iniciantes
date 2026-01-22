@@ -38,7 +38,7 @@ public class PedidoController {
 
         rabbitTemplate.convertAndSend("", routingKey, pedidoSalvo.getDescricao());
 
-        return "Pedido salvo e enviado para processamento %d".formatted(pedido.getDescricao());
+        return "Pedido salvo e enviado para processamento %s".formatted(pedido.getDescricao());
     }
     
 
