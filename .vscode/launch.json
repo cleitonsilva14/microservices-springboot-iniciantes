@@ -9,6 +9,16 @@
             "projectName": "processamento",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PedidoApplication<pedido>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "io.estudospringrabbitmq.pedido.PedidoApplication",
+            "projectName": "pedido",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
