@@ -27,10 +27,6 @@ public class PedidoController {
     @Value("${broker.queue.processamento.name}")
     private String routingKey;
 
-    @GetMapping
-    public List<Pedido> listarPedidos(){
-        return pedidoService.listarPedidos();
-    }
 
     @PostMapping
     public String criarPedido(@RequestBody Pedido pedido) {
@@ -42,6 +38,11 @@ public class PedidoController {
     }
     
 
+
+    @GetMapping
+    public List<Pedido> listarPedidos(){
+        return pedidoService.listarPedidos();
+    }
 
 
 }
